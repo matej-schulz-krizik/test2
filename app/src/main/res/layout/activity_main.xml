@@ -22,7 +22,7 @@
         android:layout_width="49dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
@@ -35,7 +35,7 @@
         android:layout_width="45dp"
         android:layout_height="46dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.355"
@@ -48,7 +48,7 @@
         android:layout_width="47dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.637"
@@ -90,5 +90,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.264" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="62dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:text="0"
+        tools:layout_editor_absoluteX="363dp"
+        tools:layout_editor_absoluteY="182dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

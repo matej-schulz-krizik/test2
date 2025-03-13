@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">test</string>
+    <string-array name="znamenko">
+        <item>vetsi</item>
+        <item>mensi</item>
+        <item>vetsi rovno</item>
+        <item>mensi rovno</item>
+
+    </string-array>
 </resources>
